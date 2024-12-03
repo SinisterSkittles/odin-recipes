@@ -1,0 +1,43 @@
+* {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title,
+h1 {
+    font-size: 60px;
+    color: darkred;
+}
+
+.recipes {
+    font-size: 25px;
+    list-style-type: square;
+
+}
+
+h3,
+h4 {
+    text-decoration: underline;
+    color: darkred;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+ul {
+    font-size: medium;
+    font-style: italic;
+}
+
+p,
+li {
+    line-height: 1.7;
+}
+
+img {
+    width: 700px;
+    height:auto;
+}
