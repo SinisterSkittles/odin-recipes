@@ -1,6 +1,8 @@
 * {
+
     background-color: antiquewhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 #title,
@@ -9,10 +11,28 @@ h1 {
     color: darkred;
 }
 
+.sloppy {
+    padding: 50px 115px;
+}
+
+.maftoul {
+    padding: 50px 142px;
+}
+
+ul {
+    font-size: medium;
+    font-style: italic;
+    list-style-type: square;
+}
+
+.recipes li {
+    color: lightcoral;
+    line-height: 1.7;
+    margin-top: 100px;
+}
+
 .recipes {
     font-size: 25px;
-    list-style-type: square;
-
 }
 
 h3,
@@ -25,19 +45,23 @@ h3 {
     font-size: 20px;
 }
 
-
-
-ul {
-    font-size: medium;
-    font-style: italic;
-}
-
-p,
-li {
-    line-height: 1.7;
+a {
+    width: 372px;
+    border-style: dashed;
+    color: darkred;
+    background-color: rgba(246, 60, 76, 0.5);
+    padding: 2em 50px;
 }
 
 img {
-    width: 700px;
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+}
+
+.list {
+    width: 300px;
     height:auto;
+    display: inline-block;
+    margin:50px;
 }
